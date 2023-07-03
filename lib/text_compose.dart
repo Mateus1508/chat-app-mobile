@@ -25,7 +25,8 @@ class _TextComposerState extends State<TextComposer> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 5),
+      color: Colors.white,
+      padding: const EdgeInsets.symmetric(horizontal: 5),
       child: Row(
         children: [
           IconButton(

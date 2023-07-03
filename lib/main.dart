@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
+      color: Colors.red.shade100,
       home: const ChatScreen(),
     );
   }
